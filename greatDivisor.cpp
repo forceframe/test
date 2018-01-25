@@ -4,7 +4,7 @@ using namespace std;
 
 int greatDivisor(int x){
 	int i = x-1;
-	while(i > x || i != 0){
+	while(i < x || i != 0){
 		if(x % i == 0){
 			return i;
 		}
